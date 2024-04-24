@@ -10,3 +10,6 @@ brctl showstp br0     # 查看 br0 的各接口信息
 
 
 ifconfig br0 192.168.33.145 up
+
+mkfifo monitor.in monitor.out
+mkfifo serial.in serial.out
