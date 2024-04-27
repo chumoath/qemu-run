@@ -1,0 +1,2 @@
+mkfifo monitor.in monitor.out
+mkfifo serial.in serial.out

@@ -1,5 +1,0 @@
-#!/bin/sh
-
-ifconfig $1 up
-brctl addif br0 $1
-brctl show
