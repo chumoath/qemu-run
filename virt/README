@@ -1,2 +1,4 @@
 mkfifo monitor.in monitor.out
 mkfifo serial.in serial.out
+
+# virt 需要删除create_pcie，否则一直显示smc911c111 model找不到

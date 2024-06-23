@@ -1,0 +1,1 @@
+cmd_/home/guoxiaohe/QemuLab/env/qemu_run/virt/drivers/sbd/Module.symvers := sed 's/ko$$/o/' /home/guoxiaohe/QemuLab/env/qemu_run/virt/drivers/sbd/modules.order | scripts/mod/modpost     -o /home/guoxiaohe/QemuLab/env/qemu_run/virt/drivers/sbd/Module.symvers -e -i Module.symvers   -T -
